@@ -8,11 +8,11 @@ import { Task } from './task.model';
   outputs: ['onTaskSelect'],
   directives: [TaskComponent],
   template: `
-  <task-display *ngFor="#currentTask of taskList"
-    (click)="taskClicked(currentTask)"
-    [class.selected]="currentTask === selectedTask"
-    [task]="currentTask">
-  </task-display>
+    <task-display *ngFor="#currentTask of taskList"
+      (click)="taskClicked(currentTask)"
+      [class.selected]="currentTask === selectedTask"
+      [task]="currentTask">
+    </task-display>
   `
 })
 export class TaskListComponent {
