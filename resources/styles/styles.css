@@ -2,6 +2,10 @@ h1 {
   color: blue;
 }
 
-.center {
+/*.center {
   text-align: center;
+}*/
+
+.selected {
+  color: #22bdf0;
 }
